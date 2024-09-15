@@ -141,6 +141,7 @@ public class DefaultShortBreak implements ActionListener {
             new StartPage();
         }
         if (e.getSource() == ShbButton) {
+            stop();
             frame.dispose();
             new DefaultOption();
         }
