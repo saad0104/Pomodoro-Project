@@ -136,6 +136,7 @@ public class CustomBreak implements ActionListener {
             new StartPage();
         }
         if (e.getSource() == cpBButton) {
+            cpstop();
             cpFrame.dispose();
             new CustomOption();
         }
