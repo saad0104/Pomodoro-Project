@@ -135,6 +135,7 @@ public class CustomPomo implements ActionListener {
             new StartPage();
         }
         if (e.getSource() == cpBButton) {
+            cpstop();
             cpFrame.dispose();
             new CustomOption();
         }
