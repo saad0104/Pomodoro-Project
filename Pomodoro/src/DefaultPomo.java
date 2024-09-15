@@ -137,6 +137,7 @@ public class DefaultPomo implements ActionListener {
             new StartPage();
         }
         if (e.getSource() == bButton) {
+            stop();
             frame.dispose();
             // new OptionPage();
             new DefaultOption();
